@@ -2,15 +2,3 @@ group 'jp.itohiro.spark-playground'
 version '0.0.1-SNAPSHOT'
 
 apply plugin: 'java'
-apply plugin: 'scala'
-
-sourceCompatibility = 1.8
-
-repositories {
-    mavenCentral()
-}
-
-dependencies {
-    compile 'org.apache.spark:spark-core_2.10:1.4.1'
-    testCompile 'junit:junit:4.11'
-}

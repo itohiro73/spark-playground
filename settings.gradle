@@ -1,2 +1,5 @@
 rootProject.name = 'spark-playground'
-
+include 'java'
+findProject(':java')?.name = 'spark-java'
+include 'scala'
+findProject(':scala')?.name = 'spark-scala'
